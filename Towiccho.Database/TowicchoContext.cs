@@ -2,9 +2,9 @@
 
 namespace Towiccho.Database
 {
-    class TowicchoContext : DbContext
+    class NotifiContext : DbContext
     {
-        public TowicchoContext(DbContextOptions options) : base(options)
+        public NotifiContext(DbContextOptions options) : base(options)
         {
         }
     }
